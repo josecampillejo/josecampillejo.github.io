@@ -1,0 +1,268 @@
+@charset "utf-8";
+/* CSS Document */
+		
+	/*TIPOGRAFÍAS*/
+		@font-face {font-family: "GoshaSansBold";
+		src: url( "tipography/GoshaSans-Bold.otf")}
+
+		@font-face {font-family: "GandhiSerif";
+		src: url( "tipography/GandhiSerif-Italic.otf")}
+		
+		@font-face {font-family: "GandhiSerifRegular";
+		src: url( "tipography/GandhiSerif-Regular.otf")}
+
+
+* {
+    box-sizing: border-box;
+	}
+
+	/*TEXTO*/
+		
+		.h1 {
+		color: #151515;
+		font-family: "GoshaSansBold";
+		font-size: 25px;
+		margin:0vw;
+		padding-left: 12px;
+		padding-bottom: 6px;
+		padding-right: 12px;
+		text-align: center;
+		text-decoration: none;
+		
+		}
+
+		.h1menu {
+		color: #151515;
+		font-family: "GoshaSansBold";
+		font-size: 35px;
+		margin:0vw;
+		padding-left: 12px;
+		padding-bottom: 6px;
+		padding-right: 12px;
+		text-align: center;
+		text-decoration: underline;
+		}
+
+		.h1max {
+		color: #151515;
+		font-family: "GoshaSansBold";
+		font-size: 40px;
+		}
+
+		.h1max1 {
+		color: #151515;
+		font-family: "GandhiSerif";
+		font-size: 40px;
+		text-decoration: underline 3px;
+		}
+
+		.h1maxMINI {
+		color: #151515;
+		font-family: "GoshaSansBold";
+		font-size: 30px;
+		}
+
+		.h1max1MINI {
+		color: #151515;
+		font-family: "GandhiSerif";
+		font-size: 30px;
+		text-decoration: underline 3px;
+		}
+		
+		.p {
+		color: #151515;
+		font-family: "GoshaSansBold";
+		font-size: 15px;
+		}
+
+		.p1 {
+		color: #151515;
+		font-family: "GandhiSerifRegular";
+		font-size: 16px;
+		font-weight: 600;
+		line-height: 20px;
+		}
+
+		.name {
+		color: #151515;
+		font-family: "GoshaSansBold";
+		font-size: 30px;
+		line-height: 30px;
+		}
+
+		.hiper {
+		color: #151515;
+		font-family: "GoshaSansBold";
+		font-size: 30px;
+		line-height: 30px;
+		text-decoration: underline;
+		}
+
+		.hiper:hover {
+		color: #151515;
+		font-family: "GandhiSerif";
+		font-weight: 600;
+		font-size: 35px;
+		line-height: 30px;
+		text-decoration: underline;
+		}
+
+		.etiqueta {
+		color: #151515;
+		font-family: "GandhiSerif";
+		font-size: 25px;
+		font-weight: 600;
+		line-height: 40px;
+		}
+
+		.titulo {
+		  text-align: center;
+		  color: #151515;
+		  font-family: "GoshaSansBold";
+		  font-size: 25px;
+		}
+
+		.descripcion {
+		  text-align: center;
+		  color: #151515;
+		  font-family: "GandhiSerif";
+		  text-decoration: overline;
+		  font-size: 20px;
+		  padding-top: 10px;
+		}
+
+.boton:active, .boton:focus, .boton:hover {
+	color: #151515;
+		font-family: "GandhiSerif";
+		font-size: 25px;
+		font-weight: 600;
+	    padding-bottom: 4px;
+	    padding-top: 1px;
+		background-color: #cacbc9;
+		border-radius: 20px;}
+
+#close:hover {
+  		color: #151515;
+		font-family: "GandhiSerif";
+		font-size: 25px;
+		font-weight: 600;
+	    padding-bottom: 4px;
+	    padding-top: 1px;
+}
+
+a {color:#151515; text-decoration: none; }
+
+
+.h1:hover, .h1:focus
+		{color: #151515;
+		font-family: "GandhiSerif";
+		font-size: 25px;
+		font-weight: 600;
+	    padding-bottom: 4px;
+	    padding-top: 1px;
+		letter-spacing: 1px;
+}
+
+
+.email { padding-top: 6px; text-decoration: underline;  font-size: 40px;
+		color: #151515;
+		font-family: "GoshaSansBold";
+		margin:0vw;
+		padding-left: 12px;
+		padding-bottom: 6px;
+		padding-right: 12px;
+		text-align: center;
+		}
+
+.email:hover { padding-top: 6px; text-decoration: underline;  font-size: 40px;
+		color: #151515;
+		font-family: "GandhiSerif";
+		font-weight: 800;
+		margin:0vw;
+		padding-left: 12px;
+		padding-bottom: 6px;
+		padding-right: 12px;
+		text-align: center;
+		letter-spacing: 2px;}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 675px) {
+    /* For mobile phones: */
+    
+	.h1max {
+		color: #151515;
+		font-family: "GoshaSansBold";
+		font-size: 30px;
+		}
+
+		h1max1 {
+		color: #151515;
+		font-family: "GandhiSerif";
+		font-size: 30px;
+		text-decoration: underline 3px;
+		}
+	
+	.email {font-size: 30px;}
+	.email:hover { font-size: 30px;}
+	
+	.hiper {
+		color: #151515;
+		font-family: "GoshaSansBold";
+		font-size: 25px;
+		line-height: 30px;
+		text-decoration: underline;
+		}
+	
+	
+	
+}
+
+@media only screen and (max-width: 970px) {
+	.h1 {
+		color: #151515;
+		font-family: "GoshaSansBold";
+		font-size: 23px;
+		margin:0vw;
+		padding-left: 12px;
+		padding-bottom: 6px;
+		padding-right: 12px;
+		text-align: center;
+		}
+	
+		.h1maxMINI {
+		color: #151515;
+		font-family: "GoshaSansBold";
+		font-size: 25px;
+		}
+
+		.h1max1MINI {
+		color: #151515;
+		font-family: "GandhiSerif";
+		font-size: 25px;
+		text-decoration: underline 3px;
+		}
+	
+		.hiper {
+		color: #151515;
+		font-family: "GoshaSansBold";
+		font-size: 25px;
+		line-height: 30px;
+		text-decoration: underline;
+		}
+}
+
+@media only screen and (max-width: 500px) {
+	.email {font-size: 20px;} 
+	.email:hover { font-size: 22px;}
+
+
+
+}

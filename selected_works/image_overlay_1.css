@@ -1,0 +1,60 @@
+@charset "UTF-8";
+/* CSS Document */
+.container {
+  position: relative;
+  width: 45vh;
+  height: 45vh;
+  border:solid 8px blue;
+  overflow: hidden;
+  border:0;
+  display:block;;
+  margin:15px 15px 0 8px;
+  border-radius: 3px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #000000;
+}
+
+.container:hover .overlay {
+  opacity: 0.6;
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #FFFFFF;
+  font-family: "GoshaSansBold";
+  font-size: 20px;
+}
+
+.descriptivo {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #FFFFFF;
+  font-family: "GandhiSerif";
+  text-decoration: overline;
+  font-size: 15px;
+}
+
+
+

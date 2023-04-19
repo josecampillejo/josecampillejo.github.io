@@ -1,0 +1,76 @@
+@charset "utf-8";
+/* CSS Document */
+
+	/* El asterisco significa que se aplica a todo elemento */ 
+	* {
+    box-sizing: border-box;
+	}
+
+[class*="col-"] { padding-left:4%; padding-right: 4%; padding-top: 2%; float:left; }
+	
+		
+/* PARA ESCRITORIO */
+.col-1 {width: 8.33%; }
+.col-2 {width: 16.66%; }
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.row { }
+
+.rowcentral {height:68vh; padding:6%;}
+
+.row:after {
+content: "";
+clear: both;
+display: block;
+}
+		
+.fondotitulo { width: 220px; border-radius: 100vw; border-style: solid; border-width: medium; border-color: #151515;}
+
+.fondotitulomenuburger { border-radius: 100vw; border-style: solid; border-width: medium;}
+
+.fondotitulo-right { width: 220px; border-radius: 100vw; border-style: solid; border-width: medium; float: right;}
+
+
+.fondo { width:100%; height: 100%;  padding-top: 12px; padding-bottom: 8px; border-radius: 3px; }
+.fondo img {border-radius: 3px;}
+.sinfondo {width: 100%; height: 100%;}
+
+
+.menu { display: block; }
+
+.menuburger {display: none;}
+
+.footer { padding-top: 10%; position:fixed; bottom:0; }
+
+
+@media only screen and (max-width: 675px) {
+    /* For mobile phones: */
+    
+	.rowcentral {height: 100%;}
+	
+
+	[class*="col-"] {
+        width: 100%;}
+
+	
+	.menu {display:none;}
+	
+	#right-content {display: block}
+	
+	.menuburger {display:block;}
+	
+	
+	
+
+}
+
+

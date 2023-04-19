@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+margin:0;
+padding:0;
+outline:0;
+}
+body {
+text-align:center;
+}
+#scroll {
+width:100vw;
+height:55vh; 
+background: RGB(0,0,0,0);
+overflow:auto;
+float:right;
+
+}
+#scroll ul {
+white-space:nowrap;
+list-style:none;
+display:inline;
+}
+#scroll li {
+display:table-cell; 
+text-align:center;       
+}
+
+img {
+border-radius: 0px;
+ width: 45vh;
+  height: 45vh;}
+	
+/* ------------- Flexcroll CSS ------------ */
+.scrollgeneric {
+line-height:1px;
+font-size:1px;
+position:absolute;
+top:0;left:0; border-radius: 10px;
+}
+.hscrollerbase {
+height:17px;
+background: RGB(0,0,0,0);
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 675px) {
+	
+.flexcroll {  }	
+	
+	
+}
